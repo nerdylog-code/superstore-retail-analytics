@@ -1,0 +1,23 @@
+{
+  "csv": {
+    "superstore_retail_data.csv": {
+      "columns": 14,
+      "rows": 5000
+    }
+  },
+  "sql": {
+    "retail_analises.sql": {
+      "statements": 15
+    }
+  },
+  "sqlite": {
+    "superstore_retail.db": {
+      "retail": 5000
+    }
+  },
+  "xlsx": {
+    "Superstore_Retail_Dashboard.xlsx": {
+      "sheets": 8
+    }
+  }
+}

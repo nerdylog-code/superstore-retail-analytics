@@ -20,3 +20,12 @@ Regional drill-down, Pareto analysis, discount impact on profitability, running 
 3. Execute the examples in `retail_analises.sql`.
 
 > Portfolio note: the data is synthetic and intended for analytics demonstrations.
+
+## Verificação
+
+```bash
+python checks/check_artifacts.py            # confere os artefatos contra o baseline
+python checks/check_artifacts.py --update   # regrava o baseline após mudar os dados
+```
+
+O baseline em `checks/expected.json` é versionado: se um CSV esvaziar, um banco perder tabela ou uma aba do dashboard desaparecer, a checagem falha. Roda no CI a cada push.
